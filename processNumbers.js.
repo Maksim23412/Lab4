@@ -1,0 +1,9 @@
+const numbers = [5, 12, 8, 130, 44, 3];
+
+function processNumbers(numbers) {
+    return numbers
+        .filter(number => number > 10)
+        .map(number => number * number);
+}
+
+module.exports = processNumbers;
